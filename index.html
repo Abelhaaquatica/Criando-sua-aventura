@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+    <title>Uma aventura de abelha</title>
+</head>
+<body>
+    <main>
+ <div class="passo ativo" id="passo-0">
+             <img src="cenario-passo0.jpg" alt="">
+             <p>Você, é uma abelha que quer descobrir o mundo custe oque custar, então você embarca em uma jornada a fora!</p>
+             <button class="btn-proximo" data-proximo="1"> Floresta de pinheiros</button>
+             <button class="btn-proximo" data-proximo="2"> Vale de tulipas</button>
+ </div>
+          <div class="passo ativo" id="passo-1">
+                <p>Você decide voar para dentro da floresta de pinheiros, encontrando arvóres gigantescas e pinhas enormes.</p>
+                <button class="btn-proximo" data-proximo="3"> Voar para o norte</button>
+                <button class="btn-proximo" data-proximo="4"> Voar para o sul</button>
+          </div>
+          <div class="passo" id="passo-2">
+                    <p>Você decide voar para o vale de tulipas, cada uma mais bela que a outra, um aroma adocicado rapidamente toma conta de você.</p>
+                    <button class="btn-proximo" data-proximo="5">Voar para o leste</button>
+                    <button class="btn-proximo" data-proximo="6">Voar para o oeste</button>
+          </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
